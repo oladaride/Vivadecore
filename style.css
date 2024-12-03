@@ -10,10 +10,10 @@
     background:white;
     margin-left:auto;
     margin-right:auto;
-    border:1px green solid;
+   /*  border:1px green solid; */
 }
 .header{
-    border:1px solid red;
+    /* border:1px solid red; */
     height:60px;
     width:100%;
     display:flex;
@@ -49,7 +49,7 @@
 .upper-section{
     display:flex;
     justify-content:space-between;
-    border:1px solid green;
+   /*  border:1px solid green; */
     margin-top:50px;
 }
 .upper-section .words{
@@ -103,7 +103,7 @@
 .bg-box{
     width: 150px;
     height:130px;
-    border:black 1px solid;
+    /* border:black 1px solid; */
     position:absolute;
     margin-top:-340px;
     margin-left:110px;
@@ -131,7 +131,7 @@
 .second-section-wrap{
     height:400px;
     width:90%;
-    border:yellow solid 1px;
+   /*  border:yellow solid 1px; */
     margin-left:auto;
     margin-right:auto;
 }
@@ -160,7 +160,7 @@
     margin-top:50px;
     height:200px;
     width:100%;
-    border:1px red solid;
+    /* border:1px red solid; */
     display:flex;
     justify-content:space-between;
     margin-bottom:50px;
@@ -189,7 +189,7 @@ margin-top:-5px;
     width:90%;
     display:flex;
     justify-content:space-between;
-    border:2px black solid;
+   /*  border:2px black solid; */
     margin-left:auto;
     margin-right:auto;
     margin-bottom:50px;
@@ -277,7 +277,7 @@ margin-top:-5px;
     margin-left:auto;
     margin-right:auto;
     position:relative;
-    border:1px solid green;
+   /*  border:1px solid green; */
     padding-top:50px;
 
    
@@ -368,7 +368,7 @@ margin-top:-5px;
 .bottom-section-wrap{
     margin-top:70px;
    justify-items:center;
-   border:1px green solid;
+  /*  border:1px green solid; */
    height:300px;
 }
 .bottom-section{
@@ -387,7 +387,7 @@ margin-top:-5px;
     height:50px;
    /*  border:1px solid black; */
     justify-items:center;
-    border:2px solid red;
+   /*  border:2px solid red; */
     box-shadow: 5px;
     
 }
@@ -413,7 +413,7 @@ margin-top:-5px;
     margin-left:auto;
     margin-right:auto;
     height:600px;
-    border:1px red solid;
+   /*  border:1px red solid; */
     background:black;
     color:white;
     display:flex;
@@ -474,7 +474,7 @@ margin-top:-5px;
         background:white;
     }
     .header{
-         border:1px solid red;
+        /*  border:1px solid red; */
          height:70px;
          width:100%;
          display:flex;
