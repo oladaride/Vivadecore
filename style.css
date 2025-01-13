@@ -228,6 +228,7 @@ margin-top:-5px;
     margin-left:auto;
     margin-right:auto;
     margin-top:50px;
+ 
   
 }
 .missed-image img{
@@ -264,14 +265,15 @@ margin-top:-5px;
 }
 /* ------ */
 .review-wrap{
-    height:1050px;
+    height:600px;
     width:90%;
     margin-top:50px;
     margin-left:auto;
     margin-right:auto;
     position:relative;
     padding-top:50px;
-
+    /* border:1px green solid;
+ */
    
 }
 .first-section{
@@ -442,47 +444,62 @@ margin-top:-5px;
 }
 
 /* ------------------------------------------------------------------------ */
-@media all and (max-width:800px){
+@media all and (max-width:600px){
 
    *{
   
    font-size:12px;
-   /* width:100%; */
- /*  overflow:hidden; */
+    width:100%;
+  /*   overflow:hidden; */
+
+    
    
    }
    body{
     width:100%;
    /*  border:1px solid red; */
+ 
     
    }
 
+   
     .first-section-wrap{
         width:90%;
-        height:1400px;
+        height:1300px;
         background:white;
        /*  border:1px purple solid; */
+       margin-left:auto;
+       margin-right:auto;
     }
     .header{
-         height:70px;
-         width:100%;
-         display:flex;
-         margin-top:20px;
-         margin-bottom:0;
-         
-     }
+        /* border:1px solid green; */
+        justify-content:none;
+    }
+    .sign-up{
+        width:70px;
+        /* border:1px solid purple; */
+        height:50px;
+    }
+
+.sign-up button{
+    width:60px;
+    height:50px;
+
+}
 .nav-bar{
     display:none;
 }
-.sign-up button{
-    height:40px;
-    width:60px;
-    background:black;
-    color:white;
+.nav-bar a{
+    width:150px;
+   
+    text-decoration:none;
+    font-weight:bold;
+    color:black;
 }
+
 .logo img{
-    width:80px;
-    height:35px;
+    width:85px;
+    height:50px;
 }
 .interior-design-wrap{
     width:100%;
@@ -594,12 +611,13 @@ margin-top:-5px;
 }
 /* --------------- */
 .second-section-wrap{
-    height:500px;
+    height:1100px;
     width:90%;
     margin-left:auto;
     margin-right:auto;
+    margin-top:30px;
     
-   /*  border:1px purple solid; */
+    /* border:1px purple solid; */
 }
 
 .nav-down-arrow img{
@@ -631,9 +649,18 @@ margin-top:-5px;
 }
 .our-service-container h2{
     font-size:27px;
+    text-align: center;
 }
 .words-content h3{
 font-size:16px;
+}
+.chandelier img{
+    height:75%;
+    padding-top:0;
+}
+.lighting-container{
+    padding-top:50px;
+   /*  border:1px solid brown; */
 }
 .straight-line{
     display:none;
@@ -641,12 +668,17 @@ font-size:16px;
 .service-content{
     flex-direction: column;
     margin-top:5px;
-    /* border:1px solid green; */
-    height:420px;
+   /*  border:1px solid green;
+    height:900px; */
+    padding-bottom:50px;
+    width:98%;
+    padding-right:auto;
+    padding-left:auto;
 }
+/* --------------------------------------------------------------------------------------------------- */
 .missed-section-wrap{
     flex-direction:column;
-    height:900px;
+    height:970px;
    /*  border:1px blue solid; */
     width:90%;
     justify-content:space-evenly;
@@ -668,12 +700,14 @@ font-size:16px;
 }
 .missed-words h3{
     font-size:27px;
+    text-align:center;
 }
+/* --------------------------------------------------- */
 .third-section-wrap{
     width:90%;
-   /*  border:1px green solid; */
+    /* border:1px green solid; */
     justify-content: space-between;
-    height:800px;
+    height:1100px;
     flex-direction: column;
     margin-top:30px;
     padding-bottom:50px;
@@ -687,6 +721,7 @@ font-size:16px;
 }
 .designing h3{
     font-size:27px;
+    text-align:center;
 }
 .designing .empty{
     display:none;
@@ -695,8 +730,10 @@ font-size:16px;
 .projects{
     width:100%;
     justify-content:space-between;
-   /*  border:1px brown solid; */
-    height:120px;
+    /* border:1px brown solid; */
+    height:160px;
+    margin-bottom:10px;
+    padding-top:15px;
     
    
 }
@@ -706,7 +743,7 @@ font-size:16px;
     
 }
 .projects-icon img{
-    height:100px;
+    height:130px;
     margin-bottom:0;
     margin-top:18px;
 }
@@ -717,17 +754,19 @@ font-size:16px;
 .designing h3{
     font-size:28px;
 }
+/* ----------------------------------------------- */
 .review-wrap{
-    height:1750px;
+    height:1500px;
     width:90%;
-   /*  border:1px red solid; */
+   /*  border:1px green solid; */
     flex-direction:column;
     position:unset;
 }
 .first-section{
     flex-direction: column;
-    height:800px;
+    height:600px;
    /*  border:1px brown solid; */
+   margin-bottom:30px;
 }
 .first-section img{
     width:100%;
@@ -735,11 +774,11 @@ font-size:16px;
 
 .review-white-background{
     flex-direction: column;
-    height:900px;
+    height:800px;
     width:100%;
     margin-left:0;
     margin-right:0;
-   /*  border:green 2px solid; */
+   /*  border:blue 2px solid; */
     position:unset;
     display:space-between;
     padding-top:0;
@@ -748,11 +787,14 @@ font-size:16px;
 .review-wrap-heading h2{
     font-size:27px;
     width:90%;
+    
 }
 .review-wrap-heading{
     width:100%;
-    /* border:1px solid green;
- */
+    /* border:1px solid green; */
+    height:100px;
+    padding-top:20px;
+
 }
 .arrows img{
     height:50px;
@@ -771,12 +813,18 @@ font-size:16px;
     height:40%;
     margin-top:0;
 }
+.review-content img{
+    width:50px;
+    height:50px;
+}
 /* -------------------------------------------------------------- */
 .bottom-section-wrap{
-    margin-top:50px;
-    width:100%;
+    margin-top:40px;
+    width:90%;
     /* border:1px blue solid; */
-    height:300px;
+    height:250px;
+    margin-left:auto;
+    margin-right:auto;
  
 
 }
@@ -789,11 +837,14 @@ font-size:16px;
 }
 
 .email-n-sub-wrap{
-    width:100%;
+    width:90%;
    /*  border:1px solid greenyellow; */
     margin-left:0;
     margin-right:0;
 
+}
+.socio img{
+    width:40px;
 }
 .email-n-sub{
     width:100%;
@@ -801,7 +852,7 @@ font-size:16px;
     padding-right:auto;
 }
 .email-n-sub-wrap input{
-    width:60%;
+    width:55%;
     margin-right:0;
 }
 .email-n-sub-wrap button{
@@ -815,18 +866,27 @@ font-size:16px;
     flex-direction: column;
 }
 .services-stuff-wrap{
-    width:100%;
+    width:98%;
    /*  border:1px red solid; */
+    margin-right:auto;
 }
 .socio{
    /*  border:red solid 2px; */
     margin-left:0;
     
 }
+
+.services-stuff li{
+    list-style-type: none;
+   /*  border:1px white solid; */
+    padding-right:50px;
+    width:70%;
+}
 .logo-stuff{
-    width:100%;
+    width:70%;
    /*  border:yellow 1px solid; */
     padding-left:20px;
+    height:450px;
 }
 
 }
