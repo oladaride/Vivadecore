@@ -450,7 +450,7 @@ margin-top:-5px;
   
    font-size:12px;
     width:100%;
-  /*   overflow:hidden; */
+    overflow:hidden;
 
     
    
@@ -465,9 +465,9 @@ margin-top:-5px;
    
     .first-section-wrap{
         width:90%;
-        height:1300px;
+        height:1050px;
         background:white;
-       /*  border:1px purple solid; */
+        border:1px purple solid;
        margin-left:auto;
        margin-right:auto;
     }
@@ -516,12 +516,10 @@ margin-top:-5px;
 }
 .upper-section .words{
     width:100%;
-    /* border:1px green solid; */
     margin-top:0;
 }
 .largest-heading{
-    width:100%;
-    font-size:4px;
+    width:80%;
     font-weight:600;
     margin-bottom:15px;
 } 
@@ -529,21 +527,22 @@ margin-top:-5px;
     width:100%;
 }
 .words{
-   /*  border:1px solid green; */
-    height:250px;
+    border:1px solid green;
+    height:350px;
     padding-top:0;
 }
 
 .upper-section-tagline{
     width:100%;
     margin:auto;
-    margin-bottom:30px;
+    margin-bottom:5px;
     line-height:1.5;
+    border:1px solid yellow;
 }
 .largest-heading{
     font-size:50px;
     width:100%;
-    margin-top:50px;
+    margin-top:20px;
 }
 .lower-section{
     display:flex;
@@ -558,20 +557,23 @@ margin-top:-5px;
     display:flex;
     flex-direction: column;
     justify-content:space-between;
-    width:30%;
+    width:40%;
     height:220px;
     margin-top:20px;
     display:block;
     margin-left:auto;
     margin-right:auto;
-   /*  border:1px green solid; */
-    padding-left:0;
+    border:1px purple solid;
+ 
     
 }
+
 .big-400{
     font-size:40px;
     margin-left:auto;
     margin-right:auto;
+    border:1px red solid;
+   
    
    
 }
@@ -668,8 +670,8 @@ font-size:16px;
 .service-content{
     flex-direction: column;
     margin-top:5px;
-   /*  border:1px solid green;
-    height:900px; */
+    border:1px solid green;
+    height:900px;
     padding-bottom:50px;
     width:98%;
     padding-right:auto;
@@ -778,7 +780,7 @@ font-size:16px;
     width:100%;
     margin-left:0;
     margin-right:0;
-   /*  border:blue 2px solid; */
+    border:blue 2px solid;
     position:unset;
     display:space-between;
     padding-top:0;
@@ -791,9 +793,11 @@ font-size:16px;
 }
 .review-wrap-heading{
     width:100%;
-    /* border:1px solid green; */
-    height:100px;
+    border:1px solid green;
+    height:120px;
     padding-top:20px;
+    margin-top:20px;
+   
 
 }
 .arrows img{
