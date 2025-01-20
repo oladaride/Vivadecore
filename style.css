@@ -450,7 +450,7 @@ margin-top:-5px;
   
    font-size:12px;
     width:100%;
-    /* overflow:hidden; */
+    overflow:hidden;
 
     
    
@@ -467,7 +467,7 @@ margin-top:-5px;
         width:90%;
         height:1050px;
         background:white;
-        border:1px purple solid;
+       /*  border:1px purple solid; */
        margin-left:auto;
        margin-right:auto;
     }
@@ -527,7 +527,7 @@ margin-top:-5px;
     width:100%;
 }
 .words{
-    border:1px solid green;
+   /*  border:1px solid green; */
     height:350px;
     padding-top:0;
 }
@@ -563,7 +563,7 @@ margin-top:-5px;
     display:block;
     margin-left:auto;
     margin-right:auto;
-    border:1px purple solid;
+   /*  border:1px purple solid; */
  
     
 }
@@ -572,7 +572,7 @@ margin-top:-5px;
     font-size:40px;
     margin-left:auto;
     margin-right:auto;
-    border:1px red solid;
+   /*  border:1px red solid; */
    
    
    
@@ -670,7 +670,7 @@ font-size:16px;
 .service-content{
     flex-direction: column;
     margin-top:5px;
-    border:1px solid green;
+    /* border:1px solid green; */
     height:900px;
     padding-bottom:50px;
     width:98%;
@@ -780,7 +780,7 @@ font-size:16px;
     width:100%;
     margin-left:0;
     margin-right:0;
-    border:blue 2px solid;
+   /*  border:blue 2px solid; */
     position:unset;
     display:space-between;
     padding-top:0;
@@ -793,7 +793,7 @@ font-size:16px;
 }
 .review-wrap-heading{
     width:100%;
-    border:1px solid green;
+   /*  border:1px solid green; */
     height:120px;
     padding-top:20px;
     margin-top:20px;
